@@ -1,0 +1,13 @@
+{
+  "name": "scrnshtr",
+  "description": "Take screenshots from Slack.",
+  "repository": "https://github.com/varlambda/scrnshtr",
+  "logo": "https://raw.githubusercontent.com/varlambda/scrnshtr/master/images/scrnshtr.png",
+  "keywords": ["node", "express", "screenshot"],
+  "env": {
+      "SLACK_API_TOKEN": {
+        "description": "A Slack API token (find it on https://api.slack.com/web)",
+        "required": true
+      }
+    }
+}

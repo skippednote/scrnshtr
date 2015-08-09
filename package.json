@@ -1,0 +1,22 @@
+{
+  "name": "scrnshtr",
+  "version": "1.0.0",
+  "description": "Grab a screenshote from Slack.",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "author": "Bassam Ismail <skippednote@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.21",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "moment": "^2.10.6",
+    "node-slack-upload": "^1.0.3",
+    "prepend-http": "^1.0.2",
+    "request": "^2.60.0",
+    "screenshot-promise": "^1.0.0",
+    "slug": "^0.9.1"
+  }
+}
